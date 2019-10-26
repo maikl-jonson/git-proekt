@@ -1,4 +1,4 @@
-body {
+ body {
  font-family: "lato", sans-serif;   
  margin: 0;
  padding: 0;    
@@ -15,16 +15,16 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
   
 .container {
  width: 100%;
- max-width: 1250px;   
+ min-width: 1250px; 
  margin: 0 auto;  
 }
 
 .closse {
   display: block; 
-  margin: 0 auto;
-  height: 130px;  
-  width: 1350px; 
-  background-color:#212121;  
+  margin: 0 auto; 
+  background-color:#212121;
+  height: 130px;
+  width: 1350px;  
 }
 
 .servises {
@@ -210,8 +210,7 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
   display: flex;
   justify-content: center;   
   width: 665px;
-  margin: -30px 180px;
-   
+  margin: -30px 180px;   
 }
 
 .servises_home { 
@@ -665,8 +664,7 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
  top: 350px;
  left: 185px;
  position: absolute;
- transition: .2s linear;   
- 
+ transition: .2s linear;
 }
 
 .button:hover {
@@ -730,8 +728,7 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
 
 .footer {
  height: 1000px;
- background-color: #000000; 
-    
+ background-color: #000000;     
 }
 
 
@@ -924,13 +921,13 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
 .information {
  display: flex;
  justify-content: space-around;
- max-width: 1300px;  
+ max-width: 1300px; 
 }
 
 .information h1 {     
  color: #fff;
  font-size: 25px;
- margin-right: 45px;  
+ margin-right: 45px;    
 }
 
 .information h1:nth-child(2) {
@@ -941,8 +938,8 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
  margin-right: 80px;  
 }
 
-.contact {
- position: relative;    
+.contact { 
+ position: relative;  
 }
 
 .contact p {
@@ -951,7 +948,7 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
  color: #887979;
  font-style: 15px;
  position: absolute; 
- top: -40px;   
+ top: -40px;    
 }
 
 .contact:nth-child(2) {    
@@ -1048,14 +1045,16 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
 }
 
 .social_icon {
- margin: -100px 0 0 950px;   
+ margin: -100px 0 0 950px; 
+ max-width: 330px; 
+ display: flex;  
 }
 
 .social_icon a {
  color: #fff;
  font-size: 25px;
  margin-left: 20px;
- transition: .1s linear; 
+ transition: .1s linear;    
 }
 
 .social_icon a:hover {
