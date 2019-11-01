@@ -46,7 +46,7 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
 }
 
 .vertical-line {     
- float: right;      
+ float: right;     
  height: 30px;      
  border-right: 2px solid #595959;
  margin: -115px 200px;
@@ -198,7 +198,6 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
  color: slategrey;  
 }
 
-
 .font_steis {
   background-color: #030303;
   height: 53px;
@@ -206,11 +205,11 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
   width: 1350px;
 }
 
- .servises_server {
-  display: flex;
-  justify-content: center;   
-  width: 665px;
-  margin: -30px 180px;   
+.servises_server {
+ display: flex;
+ justify-content: center;   
+ width: 665px;
+ margin: -30px 180px;   
 }
 
 .servises_home { 
@@ -244,124 +243,173 @@ background: url(../img/layer%205.jpg)no-repeat center top /cover;
 
 #junior { 
  height: 800px;
- background-color: #303030;
+ background-color: #303030;   
 }
 
 .becend {
- width: 710px;
  height: 400px;
- position: absolute; 
- background-color: #303030; 
+ max-width: 700px; 
+ position: relative;   
+ padding: 0;    
 }
 
+.becend:after {
+ content: "";
+ width: 660px;
+ height: 400px; 
+ background-color: #1c1c1c;
+ position: absolute;
+ left: 690px;   
+}
 
 .becend img {
- margin-left: 260px;
- margin-top: 110px; 
-   
+ left: 255px;
+ top: 100px;
+ position: absolute;
+ z-index: 1; 
+ width: 420px;   
 }
 
 .becend h1 {
- margin-top: -170px;
- margin-left: -460px;
+ bottom: 200px;
+ right: 518px;
  color: #ffffff; 
  text-transform: uppercase; 
+ position: absolute;
+ z-index: 1;    
 }
 
 .becend h4 {
- color: #535252; 
- margin-left: 48px;    
+ color: #979696;
+ bottom: 170px;    
+ left: 33px;
+ position: absolute;
+ line-height: 20px;
+ width: 330px; 
+ z-index: 1;    
 }
 
-.sustem {   
- width: auto;
- height: 400px;
- padding: 5px;
- background-color: #1c1c1c;  
+.sustem {
+ position: relative;  
+ width: 100%;  
+ height: 400px; 
+ max-width: 750px;  
+}
+
+.sustem:after {
+ content: "";
+ width: 672px;
+ height: 400px; 
+ background-color: #1c1c1c;
+ position: absolute;
+ left: 0;   
 }
 
 .sustem img {
- margin-left: 950px;
- margin-top: 70px;
- position: absolute; 
+ left: 975px;
+ bottom: 410px;
+ position: absolute;
+ z-index: 1;
+ width: 350px;  
 }
 
 .sustem h1 {
- margin-top: 156px;
- margin-left: 250px;
+ bottom: 605px;
+ right: -120px;
  color: #ffffff; 
  text-transform: uppercase; 
+ position: absolute; 
+ z-index: 1;    
 }
 
 .sustem h4 {
- color: #535252;
- margin-left: 720px; 
+ color: #979696;
+ bottom: 575px;    
+ left: 720px;
+ position: absolute;
+ width: 330px;
+ line-height: 20px;
+ z-index: 1;   
 }
 
 .daster {
  position: relative;   
  width: 700px;
  height: 400px;
- background-color: #1c1c1c;     
- padding: 10px;
 }
 
 .daster img {
- margin-left: 350px;
- margin-top: 105px; 
+ left: 320px;
+ bottom: 500px; 
  position: absolute;
- width: 180px;  
+ width: 180px;
+ z-index: 1;    
 }
 
 .daster img:nth-child(2) {
-  margin-left: 410px;
-  width: 230px;
-  margin-top: 73px;   
+ position: absolute;  
+ left: 380px; 
+ bottom: 480px;
+ z-index: 1;
+ width: 240px;  
 }
 
 .daster h1 {
- margin-top: 150px;
- margin-left: -435px;
+ position: absolute;    
+ bottom: 580px;
+ left: 45px;
  color: #ffffff; 
- text-transform: uppercase; 
+ text-transform: uppercase;
+ z-index: 1;  
 }
 
 .daster h4 {
- color: #535252; 
- margin-left: 46px;    
+ position: absolute;    
+ color: #979696;
+ left: 46px;
+ bottom: 550px;
+ z-index: 1; 
+ width: 330px;
+ line-height: 20px;   
 }
 
-
 .heading { 
+ position: relative;   
  height: 400px;
- background-color: #303030;
- margin: 0 auto;
+ width: 700px; 
 }
 
 .heading img {
- margin-left: 1000px;
- margin-top: -120px; 
- position: absolute;     
+ left: 1000px;
+ bottom: 815px; 
+ position: absolute; 
+ width: 280px;
+ z-index: 1;    
 }
 
 .heading h1 {
- margin-top: -240px;
- margin-left: 300px;
+ position: absolute;    
+ bottom: 980px;
+ left: 720px;
  color: #ffffff; 
- text-transform: uppercase;  
+ text-transform: uppercase; 
+ z-index: 1;   
 }
 
 .heading h4 {
- color: #535252;
- margin-top: 20px;
- margin-left: 750px; 
+ position: absolute;    
+ color: #979696;
+ bottom: 950px;
+ left: 720px;
+ z-index: 1; 
+ width: 330px;
+ line-height: 20px;   
 }
 
 #coller_color {
  height: 700px; 
  padding: 5px;
- background-color: #000000; 
-}
+ background-color: #000000; }
 
 
 h1 {
@@ -377,12 +425,12 @@ margin-top: 87px;
  margin: 0 auto;  
 }
 
-
 .spoking_pro {
  display: flex;
- justify-content: space-around;   
- width: 1350px;
- margin-top: 63px;    
+ justify-content: space-around;
+ margin-top: 63px;
+ width: 1360px;
+ padding: 0 90px 0 90px;   
 }
 
 .spoking_cheild {
@@ -390,7 +438,8 @@ margin-top: 87px;
  background-color: #303030; 
  width: 250px;
  height: 365px;
- transition: .5s linear;    
+ transition: .5s linear;
+ right: 40px;  
 }
 
 .spoking_cheild:hover {  
@@ -401,10 +450,9 @@ margin-top: 87px;
 .spoking_cheild img {     
  position: absolute;  
  top: 86px;   
- left: 40px;
+ left: 30px;
  opacity: 1;    
 }
-
 
 .spoking_cheild h3 {
  position: absolute;
@@ -412,8 +460,8 @@ margin-top: 87px;
  text-align: center;
  text-transform: uppercase;   
  top: 225px;
- left: 46px;
- font-weight: 900;  
+ left: 60px;
+ font-weight: 900;   
 }
 
 .spoking_cheild h2 {
@@ -422,13 +470,13 @@ margin-top: 87px;
  text-align: center;
  font-weight: 900px;
  top: 260px;
- left: 60px;  
+ left: 70px;  
 }
 
 .spoking_cheild img:nth-child(4) {
  position: absolute;
  top: 318px;
- left: 60px;   
+ left: 70px;   
 } 
 
 .spoking_pressa {
@@ -436,7 +484,8 @@ margin-top: 87px;
  background-color: #303030;
  width: 250px;
  height: 365px;
- transition: .5s linear;   
+ transition: .5s linear;
+ right: 25px;  
 }
 
 .spoking_pressa:hover {
@@ -447,7 +496,7 @@ margin-top: 87px;
 .spoking_pressa img {
  position: absolute;
  top: 35px;
- left: 20px;     
+ left: 17px;     
 } 
 
 .spoking_pressa h3 {
@@ -456,7 +505,7 @@ margin-top: 87px;
  text-align: center;
  text-transform: uppercase;   
  top: 225px;
- left: 46px;
+ left: 60px;
  font-weight: 900;  
 }
 
@@ -466,22 +515,22 @@ margin-top: 87px;
  text-align: center;
  font-weight: 900px;
  top: 260px;
- left: 60px;  
+ left: 70px;  
 }
 
 .spoking_pressa img:nth-child(4) {
  position: absolute;
  top: 318px;
- left: 60px;   
-} 
-
+ left: 70px;   
+}
 
 .spoking_box {
  position: relative;   
  background-color: #303030;
  width: 250px;
  height: 365px;
- transition: .5s linear;    
+ transition: .5s linear;
+ right: 10px;  
 }
 
 .spoking_box:hover {
@@ -491,8 +540,8 @@ margin-top: 87px;
 
 .spoking_box img {
  position: absolute;
- top: 35px;
- left: 20px;     
+ top: 30px;
+ left: 35px;     
 } 
 
 .spoking_box h3 {
@@ -501,7 +550,7 @@ margin-top: 87px;
  text-align: center;
  text-transform: uppercase;   
  top: 225px;
- left: 46px;
+ left: 60px;
  font-weight: 900;  
 }
 
@@ -511,13 +560,13 @@ margin-top: 87px;
  text-align: center;
  font-weight: 900px;
  top: 260px;
- left: 60px;  
+ left: 70px;  
 }
 
 .spoking_box img:nth-child(4) {
  position: absolute;
  top: 318px;
- left: 60px;   
+ left: 70px;   
 } 
 
 .spoking_andcar {
@@ -525,7 +574,8 @@ margin-top: 87px;
  background-color: #303030;
  width: 250px;
  height: 365px; 
- transition: .5s linear;    
+ transition: .5s linear; 
+ left: 5px;   
 }
 
 .spoking_andcar:hover {
@@ -535,8 +585,8 @@ margin-top: 87px;
 
 .spoking_andcar img {
  position: absolute;
- top: 65px;
- left: 20px;     
+ top: 70px;
+ left: 12px;   
 } 
 
 .spoking_andcar h3 {
@@ -545,7 +595,7 @@ margin-top: 87px;
  text-align: center;
  text-transform: uppercase;   
  top: 225px;
- left: 46px;
+ left: 60px;
  font-weight: 900;  
 }
 
@@ -555,13 +605,13 @@ margin-top: 87px;
  text-align: center;
  font-weight: 900px;
  top: 260px;
- left: 60px;  
+ left: 70px;  
 }
 
 .spoking_andcar img:nth-child(4) {
  position: absolute;
  top: 318px;
- left: 60px;   
+ left: 70px;   
 }
 
 .spoking_lauer {
@@ -569,14 +619,14 @@ margin-top: 87px;
  background-color: #303030;
  width: 250px;
  height: 365px;
- transition: .5s linear;   
+ transition: .5s linear; 
+ right: -20px;  
 }
 
 .spoking_lauer:hover {
  transform: translate3d(-10px,-10px,0);
  background: darkslategray;     
 } 
-
 
 .spoking_lauer img {
  position: absolute;
@@ -590,7 +640,7 @@ margin-top: 87px;
  text-align: center;
  text-transform: uppercase;   
  top: 225px;
- left: 46px;
+ left: 60px;
  font-weight: 900;  
 }
 
@@ -600,19 +650,18 @@ margin-top: 87px;
  text-align: center;
  font-weight: 900px;
  top: 260px;
- left: 60px;  
+ left: 70px; 
 }
 
 .spoking_lauer img:nth-child(4) {
  position: absolute;
  top: 318px;
- left: 60px;   
-} 
-
+ left: 70px;   
+}
 
 #termin {
 height: 550px; 
-background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;   
+background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;        
 }
 
 .ramleng {
@@ -730,7 +779,6 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
  height: 1000px;
  background-color: #000000;     
 }
-
 
 .finish {
  display: flex;
@@ -938,42 +986,48 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
  margin-right: 80px;  
 }
 
-.contact { 
- position: relative;  
+.contact_first {
+ display: flex;  
 }
 
-.contact p {
- margin-left:-370px;
- width: 370px; 
+.contact_last { 
+ position: relative;
+}
+
+.contact_last p {
+ left: -375px;
+ width: 380px; 
  color: #887979;
  font-style: 15px;
  position: absolute; 
- top: -40px;    
+ top: -40px;   
 }
 
-.contact:nth-child(2) {    
- position: relative;  
+.contact_last:nth-child(2) {    
+ position: relative;    
 }
 
-.contact p:nth-child(2) {
- margin-left: 80px; 
+.contact_last p:nth-child(2) {
+ left: 80px; 
  color: #887979;
  font-style: 15px; 
  position: absolute;
- top: -40px;    
+ top: -40px;
+ width: 380px;   
 }
 
-.contact:nth-child(3) {
- position: relative;  
+.contact_last:nth-child(3) {
+ position: relative;     
 }
 
-.contact p:nth-child(3) {
- right: -520px; 
+.contact_last p:nth-child(3) {
+ left: 535px; 
  color: #887979;
  font-style: 15px; 
  position: absolute;
  line-height: 30px; 
- top: -40px;   
+ top: -40px;
+ width: 280px;   
 }
 
 .border_link {
@@ -1060,3 +1114,23 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top /cover;
 .social_icon a:hover {
  color: darkslateblue; 
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
