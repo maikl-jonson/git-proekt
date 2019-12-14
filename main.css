@@ -20,11 +20,8 @@
 }
 
 .closse_aut {
- display: block; 
- margin: 0 auto; 
  background-color: #212121;
  height: 130px;
- width: 100%; 
 }
 
 .servises {
@@ -147,8 +144,8 @@
 
 .iconas_phone img {    
  display: block;   
- position: absolute;  
- top: 0;  
+ position: absolute; 
+ top: 0px;  
 }
 
 .numer {  
@@ -170,7 +167,7 @@
 
 .tex_mon { 
  text-align: center;  
- padding: 60px;  
+ padding: 60px 0;  
  color: #727272;   
 }
 
@@ -227,8 +224,7 @@
  position: absolute;
  z-index: 1;
  bottom: 560px; 
- right: 190px;
- clear: both;  
+ right: 190px;   
 }
 
 .icoms_chaeld img {
@@ -243,10 +239,10 @@
 }
 
 .compane_cam li {  
- display: block; 
- margin-left: 35px; 
+ display: block;
  list-style: none; 
- margin-top: -92px;  
+ padding-left: 35px;    
+ margin-top: -92px;   
 }
 
 .compane_cam a { 
@@ -417,7 +413,7 @@
 }
 
 .daster h1 {
- position: absolute; 
+ position: absolute;   
  margin-top: -250px;
  padding-left: 45px;
  color: #ffffff; 
@@ -426,11 +422,11 @@
 }
 
 .daster h4 {
- position: absolute;   
+ position: absolute;  
  color: #979696;
  padding-left: 45px;
  margin-top: -210px; 
- text-align: left;
+
  width: 330px;  
 }
 
@@ -438,19 +434,19 @@
  position: relative;   
  height: 400px;
  width: 100%;
- right: 75px;   
+ right: 75px; 
 }
 
 .heading img {
  position: absolute;    
- right: 0;
+ right: 0px;
  bottom: 810px;
  width: 280px;
  z-index: 1; 
 }
 
 .heading h1 {
- position: absolute; 
+ position: absolute;   
  margin-top: -650px; 
  padding-left: 780px;
  color: #ffffff; 
@@ -713,18 +709,18 @@ font-weight: normal;
 
 #termin {
 height: 550px; 
-background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;        
+background: url(../img/Layer%206%20png.jpg)no-repeat center center/cover;        
 }
 
 .tex_items {
  display: flex;
- justify-content: space-around;
- min-width: 1270px;  
+ justify-content: space-around;   
 }
 
 .spender {
  position: relative;
- right: 60px;    
+ right: 60px;
+ max-width: 475px;   
 }
 
 .spender h1 {
@@ -773,7 +769,8 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;
 
 .orders { 
  position: relative;
- right: -60px;  
+ right: -60px;
+ max-width: 475px;      
 }
 
 .orders h1 { 
@@ -820,16 +817,18 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;
  background-color: darkslategray;    
 }
 
-.line_overs {
- display: flex;    
- margin-top: -190px;
+.line_overs {  
+ position: relative; 
 }
 
 .line_overs:after {
- content: "";
- margin: 0 auto; 
+ content: ""; 
  height: 170px; 
  border-left: 1px solid #fff; 
+ position: absolute;
+ top: -110px;  
+ right: 50%;  
+ transform: translatey(-50%); 
 }
 
 .footer {
@@ -1001,11 +1000,11 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;
 .submit { 
  padding: 130px 0 0;  
  margin-right: 265px;
- float: right;   
+ float: right;  
 }
 
 .btn_button {  
- display: block;
+ display: inline-block;
  width: 140px;
  height: 30px;
  border-radius: 15px;
@@ -1162,7 +1161,7 @@ background: url(../img/Layer%206%20png.jpg)no-repeat center top/cover;
 
 .social_dais {
  display: grid;
- justify-content: flex-end; 
+ justify-content: end;   
  padding: 38px 350px 0;   
 }
 
